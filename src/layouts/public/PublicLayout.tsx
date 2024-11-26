@@ -1,11 +1,9 @@
-import React, { FC } from 'react';
-import { usePublicLayoutStyles } from './styles';
+import { FC } from 'react'
 
 interface PublicLayoutProps {
-    children: JSX.Element;
+  children: JSX.Element
 }
 
 export const PublicLayout: FC<PublicLayoutProps> = ({ children }) => {
-    const styles = usePublicLayoutStyles();
-    return <div className={styles.container}>{children}</div>;
-};
+  return <div className="w-full h-screen  bg-gray-50">{children}</div>
+}

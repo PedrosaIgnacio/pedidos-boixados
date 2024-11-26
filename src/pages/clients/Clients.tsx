@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
+import { FC } from 'react'
 
 export const Clients: FC = () => {
-    return <div>Clients</div>;
-};
+  return <div />
+}
